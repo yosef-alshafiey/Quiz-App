@@ -1,0 +1,74 @@
+[
+    {
+        "title":"Why We Use <br> ...........",
+        "answer1":"to make text bold",
+        "answer2":"to make text italic",
+        "answer3":"to add breakline",
+        "right_answer":"to add breakline"
+
+    },
+    {
+        "title":"HTML stands for.......",
+        "answer1":"HighText Machine Language",
+        "answer2":"HyperText and links Markup Language",
+        "answer3":"HyperText Markup Language",
+        "right_answer":"HyperText Markup Language"
+    },
+    {
+        "title":"The correct sequence of HTML tags for starting a webpage is....",
+        "answer1":"Head, Title, HTML, body",
+        "answer2":"HTML, Body, Title, Head",
+        "answer3":"HTML, Head, Title, Body",
+        "right_answer":"HTML, Head, Title, Body"
+    },
+    {
+        "title":"Which of the following element is responsible for making the text bold in HTML?",
+        "answer1":"<pre>",
+        "answer2":"<b>",
+        "answer3":"<p>",
+        "right_answer":"<b>"
+    },
+    {
+        "title":"How to create a hyperlink in HTML?",
+        "answer1":"<a> </a>",
+        "answer2":"<link></link>",
+        "answer3":"<head></head>",
+        "right_answer":"<a ></a>"
+    },
+    {
+        "title":" How to create an ordered list (a list with the list items in numbers) in HTML?",
+        "answer1":"<ul>",
+        "answer2":"<ol>",
+        "answer3":"<li>",
+        "right_answer":"<ol>"
+    },
+    {
+        "title":"Which of the following element is responsible for making the text bold in HTML?",
+        "answer1":"<pre>",
+        "answer2":"<b>",
+        "answer3":"<p>",
+        "right_answer":"<b>"
+    },
+    {
+        "title":"Which of the following tag is used to make the underlined text?",
+        "answer1":"<i>",
+        "answer2":"<ul>",
+        "answer3":"<u>",
+        "right_answer":"<u>"
+    },
+    {
+        "title":"<input> is ",
+        "answer1":"a format tag.",
+        "answer2":"a empty tag.",
+        "answer3":"All of the above",
+        "right_answer":"a empty tag."
+    },
+    {
+        "title":"The <hr> tag in HTML is used for",
+        "answer1":"new line",
+        "answer2":"vertical ruler",
+        "answer3":"horizontal ruler",
+        "right_answer":"horizontal ruler"
+    }
+]
+
