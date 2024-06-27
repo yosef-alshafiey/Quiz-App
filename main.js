@@ -176,7 +176,23 @@ function countDown (duration,count){
 
     }
 }
-    
+function updateCountdownFontSize() {
+    let root = document.documentElement;
+    let screenWidth = window.innerWidth;
+
+    if (screenWidth < 576) {
+        root.style.setProperty('--countdown-font-size', 'var(--countdown-font-size-small)');
+    } else if (screenWidth >= 576 && screenWidth < 768) {
+        root.style.setProperty('--countdown-font-size', 'var(--countdown-font-size-medium)');
+    } else {
+        root.style.setProperty('--countdown-font-size', 'var(--countdown-font-size-large)');
+    }
+}
+
+// Call the function when the page loads and on window resize
+window.addEventListener('load', updateCountdownFontSize);
+window.addEventListener('resize', updateCountdownFontSize);
+
 
 
 
