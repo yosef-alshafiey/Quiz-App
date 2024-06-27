@@ -1,9 +1,4 @@
-/* 
 
-.answer:hover {
-    background-color: #e0e0e0;
-}
- */
  * {
     box-sizing: border-box;
 }
@@ -323,4 +318,31 @@ body {
     body {
         font-size: 14px;
     }
+}
+:root {
+    --countdown-font-size-small: 16px; /* Default font size for small screens */
+    --countdown-font-size-medium: 24px; /* Default font size for medium screens */
+    --countdown-font-size-large: 32px; /* Default font size for large screens */
+}
+
+@media (min-width: 576px) {
+    :root {
+        --countdown-font-size-small: 18px; /* Adjust font size for small screens */
+    }
+}
+
+@media (min-width: 768px) {
+    :root {
+        --countdown-font-size-medium: 28px; /* Adjust font size for medium screens */
+    }
+}
+
+@media (min-width: 992px) {
+    :root {
+        --countdown-font-size-large: 36px; /* Adjust font size for large screens */
+    }
+}
+
+.count-down {
+    font-size: var(--countdown-font-size-small); /* Initial font size */
 }
